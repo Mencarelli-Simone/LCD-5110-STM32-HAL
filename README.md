@@ -12,3 +12,7 @@ LSB - - - # - -
     - # - - - #
     - # - - - #
 MSB - - - - - -
+
+in the EXAMPLE folder you can find the inc and the src folder tha you can merge in to your cubeMX generated project, i've used a "bluepill" dev board along with a stlink V2 usb dongle, you should find the settings i've used opening the .ioc file with STM32cubeMX
+
+you can do wathever you want with my code.
