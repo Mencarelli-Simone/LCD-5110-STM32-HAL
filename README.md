@@ -1,5 +1,5 @@
 # LCD_5110_STM32_HAL
-LCD 5110 with PCD854448× 84 pixels matrix LCDcontroller/driver (NOKIA old phones) library for stm32 compatible with HAL libraries 
+LCD 5110 with PCD8544 48× 84 pixels matrix LCDcontroller/driver (NOKIA old phones) library for stm32 compatible with HAL libraries 
 
 this is a very simple library meant to be used with stm32 microcontrollers programmed in c using the HAL libraries
 i uses spi with DMA to write text or to write a preformatted bitmap as a screen page (every byte is writtenas an 8 pixel columm, each colum written to the (memory) screen one after the other horizzontally in 6 rows. 
